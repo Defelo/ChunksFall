@@ -1,0 +1,15 @@
+name: Chunksfall
+version: ${project.version}
+main: defelo.mc.chunksfall.Chunksfall
+api-version: "1.13"
+authors: [Defelo]
+
+commands:
+  chunksfall:
+    description: Chunksfall
+    permission: chunksfall.admin
+    usage: "usage: /chunksfall <info|start|stop|reset>"
+
+permissions:
+  chunksfall.admin:
+    default: op
