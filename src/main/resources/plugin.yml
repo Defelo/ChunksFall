@@ -3,6 +3,7 @@ version: ${project.version}
 main: defelo.mc.chunksfall.Chunksfall
 api-version: "1.13"
 authors: [Defelo]
+website: "https://github.com/Defelo/ChunksFall"
 
 commands:
   chunksfall:
